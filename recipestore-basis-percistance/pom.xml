@@ -1,0 +1,13 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.naman.recipestore</groupId>
+    <artifactId>recipestore-basis-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>org.naman.recipestore</groupId>
+  <artifactId>recipestore-basis-percistance</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Recipe Store Basis Percistance</name>
+  <description>Recipe Store Basis Percistance for persist data</description>
+</project>
