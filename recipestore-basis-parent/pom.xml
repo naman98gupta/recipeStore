@@ -11,6 +11,7 @@
 
   <modules>
     <module>../recipestore-basis-common</module>
+    <module>../recipestore-basis-percistance</module>
   </modules>
 
   <properties>
