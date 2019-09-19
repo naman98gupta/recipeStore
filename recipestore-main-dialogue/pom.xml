@@ -1,13 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <parent>
     <groupId>org.naman.recipestore</groupId>
     <artifactId>recipestore-main-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../recipestore-main-parent/pom.xml</relativePath>
   </parent>
+
   <groupId>org.naman.recipestore</groupId>
   <artifactId>recipestore-main-dialogue</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Recipe Store Project Main Dialogue</name>
   <description>Recipe Store Project Main Dialogue for Controller and Model Beeans</description>
+
 </project>
