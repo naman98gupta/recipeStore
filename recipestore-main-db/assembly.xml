@@ -1,0 +1,22 @@
+<assembly>
+	<id>jar-with-dependencies</id>
+  <formats>
+    <format>jar</format>
+  </formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+	<dependencySets>
+		<dependencySet>
+      <includes>
+        <include>org.flywaydb:flyway-core</include>
+        <include>com.oracle:ojdbc7</include>
+        <include>org.apache.logging.log4j:*</include>
+        <include>org.slf4j:*</include>
+        <include>commons-cli:commons-cli</include>
+        <include>org.apache.commons:commons-lang3</include>
+        <include>org.naman.recipestore:recipestore-main-db</include>
+      </includes>
+      <outputDirectory>/</outputDirectory>
+      <unpack>true</unpack>
+		</dependencySet>
+	</dependencySets>
+</assembly>
