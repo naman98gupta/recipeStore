@@ -13,5 +13,31 @@
   <artifactId>recipestore-main-war</artifactId>
   <packaging>war</packaging>
   <name>Recipe Store Project Main Dialogue for UI WAR</name>
+  
+  
+    <build>
+    <finalName>recipestore-main-war</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.2</version>
+        <configuration>
+          <packagingExcludes>
+            WEB-INF/classes/de/,
+            WEB-INF/classes/db-creation/,
+            WEB-INF/classes/db-migration/,
+            WEB-INF/lib/liquibase-core*.jar
+          </packagingExcludes>
+          <warSourceDirectory>src/main/webapp</warSourceDirectory>
+          <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.0.2</version>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
