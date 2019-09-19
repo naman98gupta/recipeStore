@@ -17,9 +17,9 @@
     <timestamp>${maven.build.timestamp}</timestamp>
     <maven.build.timestamp.format>yyyyMMddHHmmssSSS</maven.build.timestamp.format>
     <iteration.number>0</iteration.number>
-    <flyway.user>recipestore_db</flyway.user>
-    <flyway.password>recipestore_db</flyway.password>
-    <flyway.url>jdbc:oracle:thin:@localhost:1521:XE</flyway.url>
+    <flyway.user>naman_db</flyway.user>
+    <flyway.password>naman_db</flyway.password>
+    <flyway.url>jdbc:oracle:thin:@localhost:1521:xe</flyway.url>
     <recipestore.version>0.0.1-SNAPSHOT</recipestore.version>
   </properties>
 
@@ -66,8 +66,8 @@
       <artifactId>arch-common</artifactId>
     </dependency>
     <dependency>
-      <groupId>de.itzbund.moeve.vvst</groupId>
-      <artifactId>moeve-vvst-casemanagement-core</artifactId>
+      <groupId>org.naman.recipestore</groupId>
+      <artifactId>recipestore-main-core</artifactId>
       <version>${recipestore.version}</version>
     </dependency>
   </dependencies>
