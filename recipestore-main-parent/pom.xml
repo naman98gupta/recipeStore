@@ -10,6 +10,10 @@
   <description>Recipe Store Project for Main Parent for collecting All main projects and connects with basis</description>
 
   <modules>
+    <module>../recipestore-main-service-api</module>
+    <module>../recipestore-main-core</module>
+    <module>../recipestore-main-service-impl</module>
+
     <module>../recipestore-main-dialogue</module>
     <module>../recipestore-main-war</module>
   </modules>
