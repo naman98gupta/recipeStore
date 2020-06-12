@@ -83,7 +83,7 @@
     <version.bug.layout>1.1.17</version.bug.layout>
     <version.jackson>2.9.3</version.jackson>
     <version.aspectj>1.9.2</version.aspectj>
-    <version.activemq>5.15.8</version.activemq>
+    <version.activemq>5.15.12</version.activemq>
     <version.cxf>3.1.4</version.cxf>
   </properties>
 
