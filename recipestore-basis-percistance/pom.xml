@@ -6,7 +6,7 @@
     <groupId>org.naman.recipestore</groupId>
     <artifactId>recipestore-basis-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../recipestore-basis-parent.pom.xml</relativePath>
+    <relativePath>../recipestore-basis-parent/pom.xml</relativePath>
   </parent>
 
   <groupId>org.naman.recipestore</groupId>
